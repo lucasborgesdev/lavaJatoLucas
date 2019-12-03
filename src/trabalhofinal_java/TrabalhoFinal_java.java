@@ -113,6 +113,111 @@ public class TrabalhoFinal_java {
             
             System.err.println("Erro");
         }
+        try {
+            FileReader fr = new FileReader(arquivo);
+            BufferedReader br = new BufferedReader(fr);
+            
+            String linhas = br.readLine();
+            ArrayList<String> salvar = new ArrayList();
+            while(linhas != null){
+                
+                if(linhas.equals("lucas") == false ){
+                    salvar.add(linhas);
+                }
+                linhas = br.readLine();
+            }
+            br.close();
+            fr.close();
+            FileWriter fw2 = new FileWriter(arquivo, true);
+            fw2.close();
+            
+            
+            FileWriter fw =  new FileWriter(arquivo);
+            BufferedWriter bw = new BufferedWriter(fw);
+            
+            for(int i = 0;i<salvar.size(); i++){
+                bw.write(salvar.get(i) );
+                bw.newLine();
+            
+        }
+            bw.close();
+            fw.close();
+            
+            
+        } catch (Exception ex) {
+            
+            System.err.println("Erro");
+        }
+        try {
+            FileReader fr = new FileReader(arquivo);
+            BufferedReader br = new BufferedReader(fr);
+            
+            String linhas = br.readLine();
+            ArrayList<String> salvar = new ArrayList();
+            while(linhas != null){
+                
+                if(linhas.equals("lucas") == false ){
+                    salvar.add(linhas);
+                }
+                linhas = br.readLine();
+            }
+            br.close();
+            fr.close();
+            FileWriter fw2 = new FileWriter(arquivo, true);
+            fw2.close();
+            
+            
+            FileWriter fw =  new FileWriter(arquivo);
+            BufferedWriter bw = new BufferedWriter(fw);
+            
+            for(int i = 0;i<salvar.size(); i++){
+                bw.write(salvar.get(i) );
+                bw.newLine();
+            
+        }
+            bw.close();
+            fw.close();
+            
+            
+        } catch (Exception ex) {
+            
+            System.err.println("Erro");
+        }
+        try {
+            FileReader fr = new FileReader(arquivo);
+            BufferedReader br = new BufferedReader(fr);
+            
+            String linhas = br.readLine();
+            ArrayList<String> salvar = new ArrayList();
+            while(linhas != null){
+                
+                if(linhas.equals("lucas") == false ){
+                    salvar.add(linhas);
+                }
+                linhas = br.readLine();
+            }
+            br.close();
+            fr.close();
+            FileWriter fw2 = new FileWriter(arquivo, true);
+            fw2.close();
+            
+            
+            FileWriter fw =  new FileWriter(arquivo);
+            BufferedWriter bw = new BufferedWriter(fw);
+            
+            for(int i = 0;i<salvar.size(); i++){
+                bw.write(salvar.get(i) );
+                bw.newLine();
+            
+        }
+            bw.close();
+            fw.close();
+            
+            
+        } catch (Exception ex) {
+            
+            System.err.println("Erro");
+        }
                        
             
             
